@@ -40,3 +40,5 @@ async function handle(req: NextRequest, {params}: { params: { path: string[] } }
 
 export const GET = handle;
 export const POST = handle;
+
+export const runtime = "edge";
